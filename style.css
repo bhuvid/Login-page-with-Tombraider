@@ -1,0 +1,59 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"; 
+body{
+    background-image:url("tomb-raider-2013.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+.login{
+        width:200px;
+       position:absolute;
+        top:40%;
+        left:8%;
+        color:black;
+        transform:translate(90px,-40px);   
+}
+
+.login h1{
+        font-size:40px;
+        border-bottom: 4px solid green;
+        margin-bottom: 40px;
+        padding:3px 0;
+        float:left;
+}
+.text{
+    width:100%;
+    overflow: hidden;
+    font-size:10px;
+    padding:4px 0;
+    margin:8px 0;
+    border-bottom:1px solid green ;
+}
+.text i{
+    width:15px;
+    float:left;
+    text-align:center;
+}
+.text input{
+    border:none;
+    outline: none;
+    background: none;
+    color:black;
+    font-size:15px;
+    width:80%;
+    margin:0 8px;
+}
+.button{
+    width:100%;
+    background:none;
+    color:black;
+    padding:3px;
+    font-size: 15px;
+    cursor:pointer;
+}
+.button:hover{
+    border:3px solid green ;
+}
+
